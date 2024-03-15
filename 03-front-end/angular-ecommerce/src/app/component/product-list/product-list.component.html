@@ -1,0 +1,4 @@
+<p *ngFor="let product of products">
+  {{ product.name }}:
+  {{ product.unitPrice | currency : "EUR" : "symbol" : "1.2-2" }}
+</p>
